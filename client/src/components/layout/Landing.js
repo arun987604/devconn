@@ -1,5 +1,5 @@
-import React from 'react'
-import {Link} from 'react-router-dom';
+import React from 'react';
+import { Link, Redirect } from 'react-router-dom';
 
  const Landing = () => {
     return (
@@ -18,6 +18,6 @@ import {Link} from 'react-router-dom';
         </div>
       </div>
     </section>
-    )
-}
+    );
+};
 export default Landing;

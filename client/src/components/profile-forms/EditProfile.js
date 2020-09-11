@@ -35,7 +35,7 @@ const EditProfile = ({profile :{ profile,loading },createProfile, getCurrentProf
                 facebook: loading || !profile.social ? '' : profile.social.facebook,
                  linkedin: loading || !profile.social ? '' : profile.social.linkedin,
                   youtube: loading || !profile.social ? '' : profile.social.youtube,
-                   instagram: loading || !profile.social ? '' : profile.social.instagram });}, [loading] ); 
+                   instagram: loading || !profile.social ? '' : profile.social.instagram });}, [loading,getCurrentProfile] ); 
 
     const {
         company,

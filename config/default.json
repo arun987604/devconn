@@ -1,4 +1,4 @@
 {
-    "mongoURI":"mongodb+srv://koilaa:koilaa@devconn.oupu5.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "mongoURI":"add mongo url",
     "jwtSecret":"mysecrettoken"
 }
